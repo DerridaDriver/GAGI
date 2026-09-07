@@ -1,0 +1,38 @@
+{
+  "name": "gagi",
+  "version": "0.4.0",
+  "private": true,
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "gold-rush:generate": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/gold-rush/generate.ts",
+    "gold-rush:generate-thinking": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/gold-rush/generate.ts --thinking-enabled",
+    "gold-rush:matched-control": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/gold-rush/generate.ts --matched-control",
+    "gold-rush:matched-treatment": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/gold-rush/generate.ts --matched-treatment",
+    "gold-rush:analyze": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/gold-rush/analyze.ts",
+    "gold-rush:merge": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/gold-rush/merge.ts",
+    "gold-rush:analyze-merged": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/gold-rush/analyze-merged.ts",
+    "gold-rush:spot-check": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/gold-rush/spot-check.ts",
+    "gold-rush:analyze-spot-check": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/gold-rush/analyze-merged.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.115.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "latest",
+    "typescript": "^6.0.3"
+  },
+  "packageManager": "pnpm@11.19.0"
+}
