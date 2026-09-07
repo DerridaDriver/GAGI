@@ -219,7 +219,7 @@ export default function Home() {
         <header className="masthead">
           <div className="brand-row">
             <p className="eyebrow">General Artificial Gag Intelligence</p>
-            <span className="version">VERSION 0.4</span>
+            <span className="version">VERSION 0.5</span>
           </div>
           <h1>GAGI<span className="brand-dot">.</span></h1>
           <p className="tagline">
@@ -374,7 +374,7 @@ export default function Home() {
         )}
 
         <footer>
-          <span>GAGI 0.4</span>
+          <span>GAGI 0.5</span>
           <span>REAL AI · REAL DATA · ANONYMOUS VOTES</span>
         </footer>
       </div>

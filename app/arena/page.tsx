@@ -193,7 +193,7 @@ export default function ArenaPage() {
         <section className="arena-panel" aria-labelledby="arena-title">
           <div className="brand-row">
             <p className="eyebrow">BLIND JOKE ARENA</p>
-            <span className="version">GAGI 0.4</span>
+            <span className="version">GAGI 0.5</span>
           </div>
 
           <p className="arena-kicker">HUMAN VOTE MODE</p>
@@ -326,7 +326,7 @@ export default function ArenaPage() {
         </section>
 
         <footer>
-          <span>GAGI 0.4</span>
+          <span>GAGI 0.5</span>
           <span>BLIND JOKE ARENA</span>
         </footer>
       </div>

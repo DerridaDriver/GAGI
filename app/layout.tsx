@@ -3,7 +3,7 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "GAGI 0.4 — General Artificial Gag Intelligence",
+  title: "GAGI 0.5 — General Artificial Gag Intelligence",
   description: "一个会保存匿名实验数据的中文笑话生成竞技场。",
 };
 

@@ -26,7 +26,7 @@ export default function HomePage() {
         <section className="landing-hero" aria-labelledby="landing-title">
           <div className="brand-row">
             <p className="eyebrow">GENERAL ARTIFICIAL GAG INTELLIGENCE</p>
-            <span className="version">GAGI 0.4</span>
+            <span className="version">GAGI 0.5</span>
           </div>
 
           <h1 id="landing-title">
@@ -56,7 +56,7 @@ export default function HomePage() {
         </section>
 
         <footer>
-          <span>GAGI 0.4</span>
+          <span>GAGI 0.5</span>
           <span>MAKE MACHINES FUNNY, EVENTUALLY.</span>
         </footer>
       </div>
