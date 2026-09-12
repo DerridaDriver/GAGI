@@ -1,0 +1,12 @@
+{
+  "raw_pair_count": 25,
+  "unique_setup_count": 25,
+  "pairs_per_setup_distribution": {
+    "1": 25
+  },
+  "unique_candidates": 50,
+  "run_count": 3,
+  "cross_arm_pairs": 16,
+  "label_conflict_groups": 0,
+  "duplicate_groups": 0
+}

@@ -1,0 +1,196 @@
+{
+  "publication_date": "2026-09-12",
+  "scope": "Selected existing reports and aggregates; not a complete Local Lab export",
+  "source_locator_note": "Logical paths relative to the external Models workspace; not repository paths or clickable links. No machine/user-specific root is included.",
+  "artifacts": [
+    {
+      "path": "reports/history/00-controlled-madness.md",
+      "source_locator": "controlled-madness-v0/results/summary.md",
+      "sha256": "829e32c50a6c5a776fa9f988314b35c2c098c5ecbd79f86389ae93af2dd4837b",
+      "bytes": 3661,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/01-semantic-escape.md",
+      "source_locator": "local_lab/experiments/semantic_escape_v1/rating_analysis.md",
+      "sha256": "0aa0cc0c437592c68825d0b46fb67e388080ab911be87d263dc2ec857d629c9b",
+      "bytes": 2123,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/02-gold11-checkpoint-metrics.json",
+      "source_locator": "local_lab/training/gold11_smoke_v0/checkpoint_sweep/metrics.json",
+      "sha256": "d597121dad643adc7b7cfc75a887e532fe5553d7fb877dcf036aca1983202b64",
+      "bytes": 4097,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/03-teacher-factory-metrics.json",
+      "source_locator": "local_lab/teacher/deepseek_factory_v0/metrics.json",
+      "sha256": "73c1833f2d38a6740f693ec044f8ce8b4165cc3c418efe69da16f19b8952f8db",
+      "bytes": 3024,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/03-teacher-factory-review.json",
+      "source_locator": "local_lab/teacher/deepseek_factory_v0/review_analysis.json",
+      "sha256": "65a7a1e21ba22eee41e0b38a7fc287fd0161548762e9aa9c00c1ca10be3495d9",
+      "bytes": 1174,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/04-wave1-review.md",
+      "source_locator": "local_lab/teacher/deepseek_factory_v1_scale/review_analysis.md",
+      "sha256": "b585e71cfe29f2aa6067acdf762b7692dd05d6c8c660226d029500a20eef9321",
+      "bytes": 5346,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/05-08a-structural-autopsy.md",
+      "source_locator": "local_lab/teacher/deepseek_factory_v1_scale/structural_autopsy/structural_collapse_analysis.md",
+      "sha256": "dc6f659f08ce99f58fc749a1be9f34011f70eb3cab8154193d20da89a91ba695",
+      "bytes": 7647,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/06-08b-human-review.md",
+      "source_locator": "local_lab/teacher/deepseek_factory_v1_1_route_balanced/human_review_analysis.md",
+      "sha256": "8c31b40d12a0b6cdf2e7c983888eac298cf787df9e716d1025cb8b6be68aa74a",
+      "bytes": 18491,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/07-08c-human-review.md",
+      "source_locator": "local_lab/teacher/deepseek_factory_v1_2_template_diversified/human_review_analysis.md",
+      "sha256": "44f9f77e89591ed7e6d663f484f87855690f2b0f4c58e481302c48b227f00f98",
+      "bytes": 15180,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/07-08c-template-recovery.md",
+      "source_locator": "local_lab/teacher/deepseek_factory_v1_2_template_diversified/template_diversity_analysis.md",
+      "sha256": "a4e499a836a776848414e5bb646293a390bb7b9f4e2b0b93770698286ee12209",
+      "bytes": 2217,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/08-08d-human-review.md",
+      "source_locator": "local_lab/teacher/deepseek_factory_v1_3_pragmatic_slot/human_review_analysis.md",
+      "sha256": "8416d78cece0ede7d98ebef85386bd8ceedb722700cc9e0d6ae4a730dab3e741",
+      "bytes": 3694,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/08-08d-integration-recovery.md",
+      "source_locator": "local_lab/teacher/deepseek_factory_v1_3_pragmatic_slot/pragmatic_slot_analysis.md",
+      "sha256": "2c132cda6e821766e5b7bc6fd0f001bd0776244e8a5e9dae0366568936def04b",
+      "bytes": 2308,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/08-08d-selector-recovery.md",
+      "source_locator": "local_lab/teacher/deepseek_factory_v1_3_pragmatic_slot/shortlist_recovery_report.md",
+      "sha256": "6162909fc20035188ca593610acb75bce6dd41b70425d44fdc003dfd65986c00",
+      "bytes": 1418,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/09-human-value-dataset.json",
+      "source_locator": "local_lab/experiments/0.9_human_value_autopsy/analysis/dataset_summary.json",
+      "sha256": "9d5cd429dd003ad3d9fe4543298fc31cdfe4f6fddac3b6f84b131cea069ed225",
+      "bytes": 439,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/09-initial-pairwise.json",
+      "source_locator": "local_lab/experiments/0.9_human_value_autopsy/analysis/pairwise_summary.json",
+      "sha256": "a84df42a5a9bc8c731f412f38c1b8a72dc23ec4721e89810b08ca8966fc66ba0",
+      "bytes": 245,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/10-anchor-rereview.md",
+      "source_locator": "local_lab/experiments/0.9_human_value_autopsy/phase2_human_recalibration/analysis/anchor_recalibration_analysis.md",
+      "sha256": "9fcdea04f13350d64d7fff030978442d7435266298caa28748625816142a347a",
+      "bytes": 3091,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/11-pairwise-recovery.md",
+      "source_locator": "local_lab/experiments/0.9_human_value_autopsy/phase2_human_recalibration/analysis/pairwise_recovery_analysis.md",
+      "sha256": "3f397ab04a841ce2c36094f387b642d38fc3890866ec1a4329d3de93b4e9347e",
+      "bytes": 5998,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/12-09b-fresh-preference.md",
+      "source_locator": "local_lab/experiments/0.9_human_value_autopsy/fresh_preference_arena_v0/results/analysis.md",
+      "sha256": "99240045981a0b49af750a3894ebc5ad76fff3bf857ea9fe98f1697f98dcdef6",
+      "bytes": 1722,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/13-09c-abort-status.json",
+      "source_locator": "local_lab/experiments/0.9_human_value_autopsy/fresh_preference_scaleup_v0/target_distribution_status_override.json",
+      "sha256": "e8f77bd5adfe285238a881fb248b46574ebf0d3200491412f24d8cd5616a95f6",
+      "bytes": 844,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/14-09da-abort-status.json",
+      "source_locator": "local_lab/experiments/0.9e_gold_mechanism_autopsy/derived/09da_status_override.json",
+      "sha256": "6d5a81bac2a6a60578e8055484f4bc8d98fd244197ca40328737d469c3d0eff8",
+      "bytes": 818,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/15-09e-autopsy.md",
+      "source_locator": "local_lab/experiments/0.9e_gold_mechanism_autopsy/analysis/final_report.md",
+      "sha256": "b9f004a3082a2b85c44ca2a3e176f8d54b7fff23c1feaf6b05cee7e0940a856a",
+      "bytes": 3196,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/16-09f-analysis.md",
+      "source_locator": "local_lab/experiments/0.9f_mechanism_transfer_writer_pilot_v0/results/analysis.md",
+      "sha256": "b93aad6ec2c68212265f3d273fa9212fcac2f0757ac3c86b38eed9c129e4694c",
+      "bytes": 2427,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/16-09f-analysis.json",
+      "source_locator": "local_lab/experiments/0.9f_mechanism_transfer_writer_pilot_v0/results/analysis.json",
+      "sha256": "c95a1c1afbae8b2c298be9333dab4da1400b20673437be3e2d3f9517adf2eef4",
+      "bytes": 2653,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/16-09f-engineering-decision.json",
+      "source_locator": "local_lab/experiments/0.9g_rare_hit_search_capacity_pilot_v0/09f_engineering_decision_addendum.json",
+      "sha256": "bb466ce3de55fcdf2551dbbebfe25d0c9c357ace8b6c5b970082c5fcbadeba89",
+      "bytes": 616,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/17-09g-analysis.md",
+      "source_locator": "local_lab/experiments/0.9g_rare_hit_search_capacity_pilot_v0/results/analysis.md",
+      "sha256": "5a641990154958d60c604fd950b5d1a83e19a8a7dc69208b6659d87caa2ceeb3",
+      "bytes": 3039,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/17-09g-analysis.json",
+      "source_locator": "local_lab/experiments/0.9g_rare_hit_search_capacity_pilot_v0/results/analysis.json",
+      "sha256": "03df6e213bbf43f5a7d44b794574d47ee5ee4be805842f46c7bfef239640029f",
+      "bytes": 5227,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    },
+    {
+      "path": "reports/history/17-09g-setup-outcomes.jsonl",
+      "source_locator": "local_lab/experiments/0.9g_rare_hit_search_capacity_pilot_v0/results/setup_outcomes.jsonl",
+      "sha256": "04ae031c9e2a0e617fad826303068211474bf11c674d0242f137802497885b19",
+      "bytes": 1803,
+      "copy_policy": "byte-identical existing artifact; original source read only"
+    }
+  ]
+}

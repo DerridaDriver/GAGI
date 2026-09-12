@@ -1,0 +1,17 @@
+{
+  "status": "ABORTED_BY_THEMATIC_STEREOTYPE_COLLAPSE",
+  "planned": 24,
+  "reviewed": 4,
+  "winner_selections": 1,
+  "ALL_BAD": 3,
+  "unreviewed": 20,
+  "unreviewed_labels": "MISSING; not ALL_BAD or Human negative",
+  "basis": "explicit Human distribution-level observation; mechanism-causality remains hypothesis",
+  "generation_stopped": true,
+  "no_promotion": true,
+  "no_future_primary_training_assumption": true,
+  "original_manifest_sha": "df24bac9cec57c3007dcb9957366360d63894ccce554c9d405d15a5a8fde484c",
+  "original_setup_sha": "18a28cc1766416ec9b2fd78bc9f18cce8f4aa65220dd749538d2e546095bf686",
+  "snapshot_sha": "a5798bca433a893adaabdc5f4c33d94d434a77330081681f756eee698c10fe6f",
+  "historical_status_override_location": "this new analysis only; all historical paths remain read-only"
+}

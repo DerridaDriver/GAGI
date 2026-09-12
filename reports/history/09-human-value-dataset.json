@@ -1,0 +1,15 @@
+{
+  "total_candidate_anchor_rows": 1999,
+  "generated_candidates": 1988,
+  "reviewed_including_anchors": 368,
+  "experimental_reviewed": 357,
+  "positive_including_anchors": 81,
+  "experimental_positive": 70,
+  "negative": 287,
+  "unreviewed": 1631,
+  "run_scoped_unique_setups": 333,
+  "reviewed_run_scoped_unique_setups": 275,
+  "setup_arm_rows": 397,
+  "human_gold_anchors": 11,
+  "canonical_teacher_silver_linked": 19
+}

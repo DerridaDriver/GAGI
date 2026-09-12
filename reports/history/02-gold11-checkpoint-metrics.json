@@ -1,0 +1,145 @@
+{
+  "memorization_curve": {
+    "BASE": {
+      "exact_count": 0,
+      "normalized_exact_count": 0,
+      "contains_gold_count": 0,
+      "average_similarity": 0.017224
+    },
+    "STEP20": {
+      "exact_count": 1,
+      "normalized_exact_count": 1,
+      "contains_gold_count": 1,
+      "average_similarity": 0.280303
+    },
+    "STEP50": {
+      "exact_count": 11,
+      "normalized_exact_count": 11,
+      "contains_gold_count": 11,
+      "average_similarity": 1.0
+    },
+    "STEP100": {
+      "exact_count": 11,
+      "normalized_exact_count": 11,
+      "contains_gold_count": 11,
+      "average_similarity": 1.0
+    }
+  },
+  "heldout_style": {
+    "BASE": {
+      "average_length": 191.7,
+      "median_length": 197.5,
+      "min_length": 98,
+      "max_length": 226,
+      "because_start_rate": 0.0,
+      "question_restatement_rate": 55.0,
+      "multi_paragraph_rate": 100.0,
+      "long_explanation_rate": 100.0,
+      "meta_discourse_rate": 70.0,
+      "multiple_answers_rate": 85.0,
+      "exact_duplicate_rate": 0.0,
+      "normalized_duplicate_rate": 0.0
+    },
+    "STEP20": {
+      "average_length": 7.15,
+      "median_length": 6.5,
+      "min_length": 2,
+      "max_length": 22,
+      "because_start_rate": 5.0,
+      "question_restatement_rate": 30.0,
+      "multi_paragraph_rate": 0.0,
+      "long_explanation_rate": 0.0,
+      "meta_discourse_rate": 0.0,
+      "multiple_answers_rate": 0.0,
+      "exact_duplicate_rate": 20.0,
+      "normalized_duplicate_rate": 20.0
+    },
+    "STEP50": {
+      "average_length": 6.6,
+      "median_length": 8.0,
+      "min_length": 2,
+      "max_length": 12,
+      "because_start_rate": 10.0,
+      "question_restatement_rate": 0.0,
+      "multi_paragraph_rate": 0.0,
+      "long_explanation_rate": 0.0,
+      "meta_discourse_rate": 0.0,
+      "multiple_answers_rate": 0.0,
+      "exact_duplicate_rate": 45.0,
+      "normalized_duplicate_rate": 45.0
+    },
+    "STEP100": {
+      "average_length": 7.55,
+      "median_length": 7.5,
+      "min_length": 2,
+      "max_length": 14,
+      "because_start_rate": 10.0,
+      "question_restatement_rate": 15.0,
+      "multi_paragraph_rate": 0.0,
+      "long_explanation_rate": 0.0,
+      "meta_discourse_rate": 0.0,
+      "multiple_answers_rate": 0.0,
+      "exact_duplicate_rate": 30.0,
+      "normalized_duplicate_rate": 30.0
+    }
+  },
+  "gold_leakage": {
+    "BASE": {
+      "distinctive_leakage_count": 0,
+      "distinctive_leakage_rate": 0.0,
+      "phrase_leakage_count": 0,
+      "phrase_leakage_rate": 0.0,
+      "average_max_similarity": 0.033932,
+      "high_pollution_count": 0,
+      "high_pollution_rate": 0.0
+    },
+    "STEP20": {
+      "distinctive_leakage_count": 0,
+      "distinctive_leakage_rate": 0.0,
+      "phrase_leakage_count": 0,
+      "phrase_leakage_rate": 0.0,
+      "average_max_similarity": 0.073037,
+      "high_pollution_count": 0,
+      "high_pollution_rate": 0.0
+    },
+    "STEP50": {
+      "distinctive_leakage_count": 7,
+      "distinctive_leakage_rate": 35.0,
+      "phrase_leakage_count": 9,
+      "phrase_leakage_rate": 45.0,
+      "average_max_similarity": 0.497222,
+      "high_pollution_count": 9,
+      "high_pollution_rate": 45.0
+    },
+    "STEP100": {
+      "distinctive_leakage_count": 8,
+      "distinctive_leakage_rate": 40.0,
+      "phrase_leakage_count": 7,
+      "phrase_leakage_rate": 35.0,
+      "average_max_similarity": 0.426664,
+      "high_pollution_count": 10,
+      "high_pollution_rate": 50.0
+    }
+  },
+  "integrity": {
+    "new_training_performed": false,
+    "checkpoint_hashes_unchanged": true,
+    "eval_hash_unchanged": true,
+    "dataset_hash_unchanged": true,
+    "heldout_outputs": {
+      "BASE": 20,
+      "STEP20": 20,
+      "STEP50": 20,
+      "STEP100": 20
+    },
+    "train_outputs": {
+      "BASE": 11,
+      "STEP20": 11,
+      "STEP50": 11,
+      "STEP100": 11
+    },
+    "thinking_content_detected": 0,
+    "blind_groups": 20,
+    "blind_preferences_blank": true
+  }
+}

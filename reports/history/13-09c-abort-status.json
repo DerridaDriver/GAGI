@@ -1,0 +1,22 @@
+{
+  "development_status": "ABORTED_BY_HUMAN_DISTRIBUTION_REJECTION",
+  "observed_reviewed": 27,
+  "user_reported_reviewed": 26,
+  "count_discrepancy": "27 durable SQLite records observed after stopping service; all retained; origin of difference not inferred",
+  "planned": 128,
+  "remaining_unreviewed": 101,
+  "winner": 14,
+  "ALL_BAD": 13,
+  "evidence_role": "PROCESS / DISTRIBUTION DIAGNOSTICS",
+  "qualifiers": [
+    "INCOMPLETE",
+    "HUMAN-STOPPED",
+    "NOT COMPARABLE AS FULL WAVE"
+  ],
+  "reason": "distribution-level dissatisfaction / TARGET DISTRIBUTION REJECTION",
+  "future_primary_training_eligible": false,
+  "unreviewed_not_all_bad": true,
+  "holdout_status": "CANCELLED_BEFORE_REVIEW_DUE_TO_TARGET_DISTRIBUTION_MISMATCH",
+  "holdout_reviewed": 0,
+  "holdout_future_official_evaluation_eligible": false
+}

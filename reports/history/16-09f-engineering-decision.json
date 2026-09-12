@@ -1,0 +1,17 @@
+{
+  "source_experiment": "0.9F",
+  "source_analysis_sha": "c95a1c1afbae8b2c298be9333dab4da1400b20673437be3e2d3f9517adf2eef4",
+  "statistical_verdict_preserved": "INCONCLUSIVE",
+  "engineering_decision": "MECHANISM_SEARCH_V0_REJECTED_FOR_CONTINUATION",
+  "MECHANISM_SEARCH_V0": "REJECTED_FOR_CONTINUATION",
+  "evidence": {
+    "setups": 16,
+    "ALL_BAD": 14,
+    "baseline_wins": 2,
+    "treatment_wins": 0,
+    "human_global_feedback": "WORSE"
+  },
+  "authority": "User 0.9G request",
+  "historical_files_modified": 0,
+  "action": "No continuation, enlargement, or rerun of MECHANISM_SEARCH v0."
+}

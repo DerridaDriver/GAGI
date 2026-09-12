@@ -1,0 +1,125 @@
+{
+  "setup": {
+    "raw": 80,
+    "eligible_after_rules": 79,
+    "final": 30,
+    "average_final_length": 14.63,
+    "normalized_duplicate_rate": 0.0,
+    "gold_or_eval_overlap": 0
+  },
+  "candidate": {
+    "raw": 180,
+    "expected": 180,
+    "active_call_status": {
+      "SUCCESS": 90
+    },
+    "active_failure_counts": {
+      "API_FAIL": 0,
+      "TIMEOUT": 0,
+      "PARSE_FAIL": 0,
+      "REFUSAL": 0,
+      "EMPTY": 0
+    },
+    "superseded_and_setup_audit_failures": {
+      "EMPTY": 6,
+      "INTERRUPTED": 2
+    },
+    "superseded_high_candidates_preserved": 2
+  },
+  "filtering": {
+    "TOO_LONG": 0,
+    "EMPTY": 0,
+    "MULTI_ANSWER": 0,
+    "META_TALK": 0,
+    "SETUP_REPEAT": 0,
+    "EXACT_DUPLICATE": 9,
+    "NORMALIZED_DUPLICATE": 0,
+    "GOLD_EXACT_LEAK": 0,
+    "GOLD_PHRASE_LEAK": 0,
+    "GOLD_DISTINCTIVE_TOKEN_LEAK": 0,
+    "GOLD_CONTAMINATION": 0,
+    "EVAL_LEAK": 0
+  },
+  "shortlist": {
+    "setups_with_0": 5,
+    "setups_with_1": 8,
+    "setups_with_2": 17,
+    "selected_before_global_dedupe": 42,
+    "finalists": 42
+  },
+  "diversity": {
+    "exact_duplicate": 0,
+    "normalized_duplicate": 0,
+    "average_length": 9.74,
+    "high_similarity_pair_count": 0,
+    "high_similarity_pairs": []
+  },
+  "gold_leakage": {
+    "distinctive_count": 0,
+    "phrase_count": 0,
+    "contamination_count": 0,
+    "max_similarity": 0.333333
+  },
+  "integrity": {
+    "training_performed": false,
+    "gold_hash_unchanged": true,
+    "gold_eval_hash_unchanged": true,
+    "setups_hash_unchanged": true,
+    "reasoning_content_saved": false,
+    "blind_decisions_blank": true,
+    "requests_attempted": 133,
+    "requests_succeeded": 125,
+    "requests_failed_or_interrupted": 8,
+    "request_hard_cap": 200
+  },
+  "human_review": {
+    "review_completed": true,
+    "review_rows": 42,
+    "decisions": {
+      "SKIP": 23,
+      "KEEP": 19,
+      "GOLD": 0
+    },
+    "keep_rate": 0.452381,
+    "gold_rate": 0.0,
+    "promoted": 19,
+    "promotion_identity": {
+      "KEEP": {
+        "rating": "MAYBE",
+        "status": "accepted",
+        "quality_tier": "silver_teacher"
+      },
+      "GOLD": {
+        "rating": "HIT",
+        "status": "accepted",
+        "quality_tier": "gold_teacher"
+      }
+    },
+    "corpus_validation_passed": true,
+    "corpus_summary": {
+      "total_samples": 210,
+      "human": 11,
+      "teacher": 19,
+      "model": 180,
+      "legacy": 0,
+      "accepted": 30,
+      "rejected": 180,
+      "unreviewed": 0,
+      "eval_only": 0,
+      "HIT": 11,
+      "MAYBE": 19,
+      "BAD": 180,
+      "UNRATED": 0,
+      "eval_topics": 6,
+      "duplicate_records": 3,
+      "eval_leakage_warnings": 1,
+      "eval_leakage_errors": 0,
+      "sft_eligible": 30,
+      "sft_train_rows": 27,
+      "sft_validation_rows": 2,
+      "schema_errors": 0,
+      "encoding_issues": 0
+    },
+    "interpretation": "The pilot added 19 user-accepted silver teacher samples and 0 user-confirmed Gold/HIT samples. This is a factual human-review result, not an automatic humor judgment."
+  }
+}

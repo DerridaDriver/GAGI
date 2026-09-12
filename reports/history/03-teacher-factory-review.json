@@ -1,0 +1,50 @@
+{
+  "review_completed": true,
+  "review_rows": 42,
+  "decisions": {
+    "SKIP": 23,
+    "KEEP": 19,
+    "GOLD": 0
+  },
+  "keep_rate": 0.452381,
+  "gold_rate": 0.0,
+  "promoted": 19,
+  "promotion_identity": {
+    "KEEP": {
+      "rating": "MAYBE",
+      "status": "accepted",
+      "quality_tier": "silver_teacher"
+    },
+    "GOLD": {
+      "rating": "HIT",
+      "status": "accepted",
+      "quality_tier": "gold_teacher"
+    }
+  },
+  "corpus_validation_passed": true,
+  "corpus_summary": {
+    "total_samples": 210,
+    "human": 11,
+    "teacher": 19,
+    "model": 180,
+    "legacy": 0,
+    "accepted": 30,
+    "rejected": 180,
+    "unreviewed": 0,
+    "eval_only": 0,
+    "HIT": 11,
+    "MAYBE": 19,
+    "BAD": 180,
+    "UNRATED": 0,
+    "eval_topics": 6,
+    "duplicate_records": 3,
+    "eval_leakage_warnings": 1,
+    "eval_leakage_errors": 0,
+    "sft_eligible": 30,
+    "sft_train_rows": 27,
+    "sft_validation_rows": 2,
+    "schema_errors": 0,
+    "encoding_issues": 0
+  },
+  "interpretation": "The pilot added 19 user-accepted silver teacher samples and 0 user-confirmed Gold/HIT samples. This is a factual human-review result, not an automatic humor judgment."
+}

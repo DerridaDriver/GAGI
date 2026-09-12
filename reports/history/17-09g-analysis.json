@@ -1,0 +1,176 @@
+{
+  "setups": 8,
+  "candidates": 128,
+  "candidates_per_setup": 16,
+  "preliminary_decisions": 32,
+  "preliminary_survivors": 12,
+  "preliminary_ALL_BAD": 20,
+  "setups_with_preliminary_survivor": 7,
+  "final_winner_setups": 7,
+  "FINAL_ALL_BAD": 1,
+  "TARGET_HIT": 6,
+  "CLEVER_ONLY": 1,
+  "TARGET_HIT_rate": 0.75,
+  "ANY_SURVIVOR_at_k": {
+    "4": 6,
+    "8": 6,
+    "12": 7,
+    "16": 7
+  },
+  "confirmed_final_TARGET_HIT_location_at_k": {
+    "4": 3,
+    "8": 4,
+    "12": 4,
+    "16": 6
+  },
+  "deeper_target_after_first_batch_ALL_BAD": 1,
+  "routes": {
+    "R1_WHY_CAUSAL": {
+      "setups": 1,
+      "has_preliminary_survivor": 1,
+      "final_winner": 1,
+      "TARGET_HIT": 1,
+      "CLEVER_ONLY": 0,
+      "FINAL_ALL_BAD": 0
+    },
+    "R2_WHAT_DEFINITION": {
+      "setups": 1,
+      "has_preliminary_survivor": 1,
+      "final_winner": 1,
+      "TARGET_HIT": 1,
+      "CLEVER_ONLY": 0,
+      "FINAL_ALL_BAD": 0
+    },
+    "R3_HOW_PROCEDURE": {
+      "setups": 1,
+      "has_preliminary_survivor": 1,
+      "final_winner": 1,
+      "TARGET_HIT": 1,
+      "CLEVER_ONLY": 0,
+      "FINAL_ALL_BAD": 0
+    },
+    "R7_DIALOGUE_REPLY": {
+      "setups": 1,
+      "has_preliminary_survivor": 0,
+      "final_winner": 0,
+      "TARGET_HIT": 0,
+      "CLEVER_ONLY": 0,
+      "FINAL_ALL_BAD": 1
+    },
+    "R6_CONDITIONAL_HYPOTHETICAL": {
+      "setups": 1,
+      "has_preliminary_survivor": 1,
+      "final_winner": 1,
+      "TARGET_HIT": 1,
+      "CLEVER_ONLY": 0,
+      "FINAL_ALL_BAD": 0
+    },
+    "R5_WHEN_WHERE": {
+      "setups": 1,
+      "has_preliminary_survivor": 1,
+      "final_winner": 1,
+      "TARGET_HIT": 1,
+      "CLEVER_ONLY": 0,
+      "FINAL_ALL_BAD": 0
+    },
+    "R8_STATEMENT_COMPARISON_OBSERVATION": {
+      "setups": 1,
+      "has_preliminary_survivor": 1,
+      "final_winner": 1,
+      "TARGET_HIT": 1,
+      "CLEVER_ONLY": 0,
+      "FINAL_ALL_BAD": 0
+    },
+    "R4_WHO_IDENTITY": {
+      "setups": 1,
+      "has_preliminary_survivor": 1,
+      "final_winner": 1,
+      "TARGET_HIT": 0,
+      "CLEVER_ONLY": 1,
+      "FINAL_ALL_BAD": 0
+    }
+  },
+  "setup_outcomes": [
+    {
+      "setup_id": "gagi09g_setup_001",
+      "setup_route": "R1_WHY_CAUSAL",
+      "preliminary_survivor_count": 1,
+      "final_candidate_id": "gagi09g_setup_001_s06",
+      "target_alignment": "TARGET_HIT",
+      "confirmed_winner_preliminary_batch": 1
+    },
+    {
+      "setup_id": "gagi09g_setup_002",
+      "setup_route": "R2_WHAT_DEFINITION",
+      "preliminary_survivor_count": 1,
+      "final_candidate_id": "gagi09g_setup_002_s05",
+      "target_alignment": "TARGET_HIT",
+      "confirmed_winner_preliminary_batch": 1
+    },
+    {
+      "setup_id": "gagi09g_setup_003",
+      "setup_route": "R3_HOW_PROCEDURE",
+      "preliminary_survivor_count": 2,
+      "final_candidate_id": "gagi09g_setup_003_s02",
+      "target_alignment": "TARGET_HIT",
+      "confirmed_winner_preliminary_batch": 1
+    },
+    {
+      "setup_id": "gagi09g_setup_007",
+      "setup_route": "R7_DIALOGUE_REPLY",
+      "preliminary_survivor_count": 0,
+      "final_candidate_id": null,
+      "target_alignment": null,
+      "confirmed_winner_preliminary_batch": null
+    },
+    {
+      "setup_id": "gagi09g_setup_006",
+      "setup_route": "R6_CONDITIONAL_HYPOTHETICAL",
+      "preliminary_survivor_count": 3,
+      "final_candidate_id": "gagi09g_setup_006_s01",
+      "target_alignment": "TARGET_HIT",
+      "confirmed_winner_preliminary_batch": 4
+    },
+    {
+      "setup_id": "gagi09g_setup_005",
+      "setup_route": "R5_WHEN_WHERE",
+      "preliminary_survivor_count": 2,
+      "final_candidate_id": "gagi09g_setup_005_s15",
+      "target_alignment": "TARGET_HIT",
+      "confirmed_winner_preliminary_batch": 4
+    },
+    {
+      "setup_id": "gagi09g_setup_008",
+      "setup_route": "R8_STATEMENT_COMPARISON_OBSERVATION",
+      "preliminary_survivor_count": 2,
+      "final_candidate_id": "gagi09g_setup_008_s16",
+      "target_alignment": "TARGET_HIT",
+      "confirmed_winner_preliminary_batch": 2
+    },
+    {
+      "setup_id": "gagi09g_setup_004",
+      "setup_route": "R4_WHO_IDENTITY",
+      "preliminary_survivor_count": 1,
+      "final_candidate_id": "gagi09g_setup_004_s14",
+      "target_alignment": "CLEVER_ONLY",
+      "confirmed_winner_preliminary_batch": 1
+    }
+  ],
+  "verdict": "INCONCLUSIVE",
+  "general_cleverness_present": false,
+  "analysis_unit": "setup_id",
+  "curve_caveat": "TARGET curve only locates eventually confirmed final winners; unlabelled survivors are not negatives; not candidate p(hit) or a counterfactual early-final experiment.",
+  "api_attempts": 50,
+  "technical_retries": 2,
+  "candidate_slot_technical_failures": 2,
+  "human_final_decisions": 4,
+  "auto_final_records": 4,
+  "alignment_labels": 7,
+  "human_actions": 43,
+  "manifest_sha": "0d098c74387f8c17adb2a0bc1c97adcc8805f127db5926c0a1e9bb2edd0aa0c7",
+  "protocol_sha": "95b747fd962b8f452756fd1275ecfeec431c2ad05469e1baec7842211458d6a8",
+  "historical_files_verified": 2227,
+  "historical_files_modified": 0,
+  "model_trained": false,
+  "test_fixture": false
+}

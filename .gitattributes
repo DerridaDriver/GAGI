@@ -1,0 +1,2 @@
+# Preserve published historical snapshots byte-for-byte, including original EOLs.
+reports/history/** -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
