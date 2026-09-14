@@ -60,7 +60,7 @@ GAGI 最初并不是从一套幽默理论开始的。按作者找回的早期测
 
 ### 0.1 — 首次真实 API 生成
 
-按作者回忆，此时接入了 DeepSeek API，使用后来称为 `writer_v1` 的早期 prompt；测试“为什么鬼都是白色的？”时出现了“袁世凯”回答。正式的 generations/votes 保存尚未接入。[找回的截图](docs/assets/gagi-01-yuan-shikai-original.png)直接显示 0.1 页面及投票不会真正保存的提示；该条的 API／prompt 元数据未恢复。它作为项目起源记录保留，不加入后续实验计数。
+此时接入了 DeepSeek API，使用后来称为 `writer_v1` 的早期 prompt；测试“为什么鬼都是白色的？”时出现了“袁世凯”回答。正式的 generations/votes 保存尚未接入。[找回的截图](docs/assets/gagi-01-yuan-shikai-original.png)直接显示 0.1 页面及投票不会真正保存的提示；该条的 API／prompt 元数据未恢复。它作为项目起源记录保留，不加入后续实验计数。
 
 ### 早期采样：Controlled Madness
 
