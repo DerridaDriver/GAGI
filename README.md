@@ -32,9 +32,35 @@
 
 历史报告以[逐字节保持一致的快照](reports/source-manifest.json)保存，保留原来的术语与结论，包括后来在下文中被加以限定的说法。请先阅读[归档说明](reports/README.md)，不要把旧报告中的建议直接当作项目当前决策。
 
+## 🏺 项目起源：失踪的“袁世凯”回来了
+
+GAGI 最初并不是从一套幽默理论开始的。按作者找回的早期测试背景，在 0.1 阶段，我们只是向原生 DeepSeek API 问了一句：
+
+> 为什么鬼都是白色的？
+
+四个候选里，前三条在我们看来都偏典型的脑筋急转弯式回答。第四条突然变成了：
+
+> **因为袁世凯说过：鬼要是不白，怎么在黑白片里客串**
+
+这条输出后来成了 GAGI 的“创世神话”之一。它出现在 QLoRA、Teacher Factory、Route Balancing、Closure 和 Mechanism Search 之前，没有经过后来的复杂流水线。它只是自己出现了。
+
+后来我们开始认真研究：**为什么这种东西偶尔会自然出现，以及怎样让模型更稳定地产生我们真正愿意让它学习的笑话。** 经历了后面时间线中的种种实验，原始“袁世凯”记录自己却失踪了。现在，历史截图重新被找回。
+
+**袁世凯回来了。模型还没有。**
+
+![GAGI 0.1 的完整四候选与 D 被选中的原始截图](docs/assets/gagi-01-yuan-shikai-original.png)
+
+> GAGI 0.1 原始 UI 记录，完整保留 A/B/C/D；D 即“袁世凯”样本。页面注明：“已记录：你选择了 D。GAGI 0.1 暂时不会真的保存它。”
+
+这是 **EARLY ORIGIN ARTIFACT / PROJECT PREHISTORY SAMPLE**，不是新的实验结论或正式 GOLD。截图确认候选原文、D 的点选与页面版本；题面及 DeepSeek／后来称为 `writer_v1` 的 prompt 背景来自作者的历史回忆，未由这张截图独立验证，也未恢复原始 API 响应。“错误权威、时空错位”是对笑点的解释，不是已验证的机制。[找回公告与证据说明](docs/announcements/2026-09-yuan-shikai-recovered.md)
+
 ## 实验时间线
 
 以下顺序遵循已记录的实验沿革。除非另有说明，历史 **useful（有用）** 指 `KEEP + GOLD`；后来的 groupwise winner 和目标偏好认可标签，是不同的测量。
+
+### 0.1 — 首次真实 API 生成
+
+按作者回忆，此时接入了 DeepSeek API，使用后来称为 `writer_v1` 的早期 prompt；测试“为什么鬼都是白色的？”时出现了“袁世凯”回答。正式的 generations/votes 保存尚未接入。[找回的截图](docs/assets/gagi-01-yuan-shikai-original.png)直接显示 0.1 页面及投票不会真正保存的提示；该条的 API／prompt 元数据未恢复。它作为项目起源记录保留，不加入后续实验计数。
 
 ### 早期采样：Controlled Madness
 

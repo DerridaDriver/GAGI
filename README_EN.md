@@ -28,9 +28,31 @@ That is a research direction, not a demonstrated solution. The evaluator's prefe
 
 Historical reports are [byte-identical snapshots](reports/source-manifest.json). They retain their original terminology and conclusions, including statements later qualified below. Read the [archive notes](reports/README.md) before interpreting an old recommendation as current policy.
 
+## 🏺 Project prehistory: Yuan Shikai returns
+
+GAGI did not begin with a humor theory. In the author's account of an early GAGI 0.1 DeepSeek API test, the setup was “Why are ghosts always white?” Candidate D answered:
+
+> 因为袁世凯说过：鬼要是不白，怎么在黑白片里客串
+
+Roughly: “Because Yuan Shikai said: if ghosts weren't white, how could they make a cameo in black-and-white films?” This is a Chinese joke; the translation is only a gloss.
+
+It became one of the project's origin artifacts, preceding QLoRA, Teacher Factory, route balancing, closure checks, and mechanism search. We went on to investigate why such outputs sometimes appear and whether the Writer could produce more things the Human wants it to learn. Somewhere along the way, the original record itself went missing. A historical screenshot has now been recovered.
+
+**Yuan Shikai is back. The model isn't.**
+
+![Original GAGI 0.1 screenshot showing all four candidates and D selected](docs/assets/gagi-01-yuan-shikai-original.png)
+
+> All four candidates are preserved. The UI says D was selected and that GAGI 0.1 would not actually save the choice.
+
+This is an **EARLY ORIGIN ARTIFACT / PROJECT PREHISTORY SAMPLE**, not a new experimental result or formal GOLD. The screenshot confirms the text, selection, and UI version. The setup and DeepSeek / later-named `writer_v1` provenance come from the author's recollection; neither appears in the image, and no original API response has been recovered. “Misplaced authority” and “temporal incongruity” are interpretations, not validated mechanisms. [Recovery announcement and evidence notes (Chinese)](docs/announcements/2026-09-yuan-shikai-recovered.md)
+
 ## Experiment timeline
 
 The sequence below follows the recorded experiment lineage. Unless otherwise stated, historical **useful** means `KEEP + GOLD`; later groupwise winners and target-endorsement labels are different measurements.
+
+### 0.1 — First real API generation
+
+The author recalls a DeepSeek test using the early prompt later called `writer_v1`, with “Why are ghosts always white?” producing the Yuan Shikai candidate. This preceded persisted generations/votes. The [recovered screenshot](docs/assets/gagi-01-yuan-shikai-original.png) directly confirms the 0.1 UI and its non-persistence notice; per-response API/prompt metadata remains unavailable. This origin artifact adds no experimental observations to the reported counts.
 
 ### Early sampling: Controlled Madness
 
