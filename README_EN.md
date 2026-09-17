@@ -2,6 +2,8 @@
 
 # GAGI
 
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
+
 **General Artificial Gag Intelligence**
 
 A small, human-in-the-loop experiment in teaching language models a very specific sense of humor — and documenting the many ways this fails.
@@ -289,7 +291,13 @@ Limitations include tiny samples, one primary Human evaluator, highly personal p
 
 ## License
 
-No LICENSE file is present. No license has been chosen or added as part of this publication.
+First-party code and documentation are licensed under the **[Apache License 2.0](LICENSE)**. Copyright 2026 DerridaDriver and GAGI contributors.
+
+Use, modification, redistribution and commercial use are permitted under the license, including its notice and change-marking requirements. Third-party dependencies, quoted materials and unpublished models/data are not relicensed by this statement; see [licensing scope](LICENSING.md).
+
+## Contributing
+
+Bug reports, documentation corrections and methodological discussion are welcome. Read the [contribution guide](CONTRIBUTING.md); use [Discussions](https://github.com/DerridaDriver/GAGI/discussions) for general questions and research ideas.
 
 ---
 

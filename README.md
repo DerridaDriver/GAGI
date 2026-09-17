@@ -2,6 +2,8 @@
 
 # GAGI
 
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
+
 **General Artificial Gag Intelligence / 通用人工笑话智能**
 
 我们想训练一个真正符合人类个人幽默偏好的笑话模型。
@@ -301,7 +303,13 @@ python scripts/publication/secret_scan.py
 
 ## License
 
-当前没有 LICENSE 文件。本次发布没有代替作者选择或添加许可证。
+本项目自有代码与文档采用 **[Apache License 2.0](LICENSE)**。Copyright 2026 DerridaDriver and GAGI contributors。
+
+允许按许可证使用、修改、分发与商用；分发时须保留相关许可和版权声明，并注明修改。第三方依赖、引用材料及未发布的模型／数据不因本文件而重新授权，详见 [许可范围](LICENSING.md)。
+
+## 参与项目
+
+欢迎提交 Bug、文档纠错和方法学讨论。开始前请阅读 [贡献指南](CONTRIBUTING.md)；一般交流与研究想法可到 [Discussions](https://github.com/DerridaDriver/GAGI/discussions)。
 
 ---
 
