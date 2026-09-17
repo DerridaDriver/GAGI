@@ -1,5 +1,7 @@
 # Publication safety audit — 2026-09-12
 
+> Licensing update — 2026-09-17: the owner subsequently selected Apache-2.0. See [LICENSE](../LICENSE) and [licensing scope](../LICENSING.md). Statements below about the absence of a license describe the original publication date, not the current repository. Archived experiment snapshots are unchanged.
+
 ## Release boundary
 
 Target: the already-configured `origin` repository, `DerridaDriver/GAGI`, branch `main`. No new remote, force push, history rewrite, or credential rotation was performed by this documentation task.
